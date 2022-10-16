@@ -1,0 +1,36 @@
+Collecting language_tool_python
+  Downloading language_tool_python-2.7.1-py3-none-any.whl (34 kB)
+Collecting editdistance
+  Downloading editdistance-0.6.0-cp39-cp39-win_amd64.whl (24 kB)
+Collecting bert-score
+  Downloading bert_score-0.3.12-py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.8/60.8 kB ? eta 0:00:00
+Requirement already satisfied: requests in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from language_tool_python) (2.27.1)
+Requirement already satisfied: tqdm in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from language_tool_python) (4.64.0)
+Requirement already satisfied: transformers>=3.0.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (4.19.4)
+Requirement already satisfied: numpy in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (1.22.4)
+Requirement already satisfied: packaging>=20.9 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (20.9)
+Requirement already satisfied: matplotlib in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (3.5.2)
+Requirement already satisfied: pandas>=1.0.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (1.4.2)
+Requirement already satisfied: torch>=1.0.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from bert-score) (1.11.0+cu113)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from packaging>=20.9->bert-score) (3.0.9)
+Requirement already satisfied: pytz>=2020.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from pandas>=1.0.1->bert-score) (2021.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from pandas>=1.0.1->bert-score) (2.8.2)
+Requirement already satisfied: typing-extensions in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from torch>=1.0.0->bert-score) (3.10.0.2)
+Requirement already satisfied: colorama in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from tqdm->language_tool_python) (0.4.4)
+Requirement already satisfied: huggingface-hub<1.0,>=0.1.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from transformers>=3.0.0->bert-score) (0.7.0)
+Requirement already satisfied: filelock in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from transformers>=3.0.0->bert-score) (3.7.1)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from transformers>=3.0.0->bert-score) (5.4.1)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from transformers>=3.0.0->bert-score) (2021.8.28)
+Requirement already satisfied: tokenizers!=0.11.3,<0.13,>=0.11.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from transformers>=3.0.0->bert-score) (0.12.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from matplotlib->bert-score) (1.4.2)
+Requirement already satisfied: pillow>=6.2.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from matplotlib->bert-score) (9.2.0)
+Requirement already satisfied: cycler>=0.10 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from matplotlib->bert-score) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from matplotlib->bert-score) (4.33.3)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from requests->language_tool_python) (2.0.12)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from requests->language_tool_python) (2022.5.18.1)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from requests->language_tool_python) (1.26.9)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from requests->language_tool_python) (3.3)
+Requirement already satisfied: six>=1.5 in c:\users\amanp\appdata\local\programs\python\python39\lib\site-packages (from python-dateutil>=2.8.1->pandas>=1.0.1->bert-score) (1.16.0)
+Installing collected packages: editdistance, language_tool_python, bert-score
+Successfully installed bert-score-0.3.12 editdistance-0.6.0 language_tool_python-2.7.1
